@@ -72,7 +72,6 @@ margin-right: 170px;
 
 @media(max-width:2000px){
     .wrapper{
-        background-color: aqua;
     }
 
     .menu__name_block{
@@ -94,9 +93,7 @@ margin-right: 170px;
 }
 
 @media(max-width:1700px){
-    .wrapper{
-        background-color: wheat;
-    }
+   
 
     header{
         margin-top: 100px;
@@ -118,9 +115,8 @@ margin-right: 170px;
         width: 160px;
     }
 }
-    @media(max-width:1190px){
+@media(max-width:1190px){
         .wrapper{
-            background-color: violet;
         }
     
         .menu__name_block{
@@ -140,11 +136,8 @@ margin-right: 170px;
         }
 
     }
-        @media(max-width:900px){
-            .wrapper{
-                background-color: tomato;
-            }
-
+@media(max-width:900px){
+            
             header{
                 margin-top: 50px;
             }
@@ -167,9 +160,8 @@ margin-right: 170px;
             }
 
     }
-            @media(max-width:526px){
+@media(max-width:526px){
                 .wrapper{
-                    background-color: aquamarine;
                 }
     
                 header{
@@ -201,7 +193,7 @@ margin-right: 170px;
                     margin-bottom: 5px;
                 }
 }
-/* ////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////main//////////////////////////////////////////// */
 
 .main_line{
     background-color: #DDFE25;
@@ -210,4 +202,321 @@ margin-right: 170px;
 
     margin-top: 86px;
     margin-bottom: 160px;
+}
+
+@media(max-width:1190px){
+    .main_line{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    }
+}
+
+@media(max-width:526px){
+    .main_line{
+    height: 3px;
+
+    margin-top: 20px;
+    margin-bottom: 60px;
+    }
+}
+
+
+/* /////////main information//////////// */
+main{
+    margin-bottom: 50px;
+}
+
+.main__information_block{
+    margin-right: 100px;
+}
+
+.main__content{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.main__information_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_img_design{
+    display: flex; 
+
+}
+
+.main__information_block .main_img_design{
+    margin: 25px 0px 180px 50px;
+}
+
+
+
+.main_img_design :not(:last-child){
+    margin-right :25%;
+    
+}
+
+/* /////// */
+
+
+
+.inform_text__title{
+    color: #DDFE25;
+
+font-family: Poppins;
+font-size: 83.347px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+.inform_text__text{
+    color: #FFF;
+
+font-family: Poppins;
+font-size: 55.917px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+/* ///// */
+.main_button button{
+    background-color: #DDFE25;
+    width: 441px;
+    height: 125.02px;
+    border-radius: 300px;
+    margin-top: 50px;
+
+    color: #141414;
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 62.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.main_button button:hover{
+    background-color: #2980b9; 
+    color: #e0e0e0;
+}
+
+.main__contact_block .information_text {
+    text-align: right;
+}
+
+
+/* ///////////////////////////////////// */
+.main__contact_block{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 50%;
+}
+
+
+.main__name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 155px;
+
+    color: #DDFE25;
+
+    text-align: center;
+    font-family: Dela Gothic One;
+    font-size: 166.692px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+.main__name{
+    width: 100%;
+
+}
+
+
+.main_img {
+    position: relative;
+   
+  }
+.Shadow_2{
+    position: absolute;
+}
+  
+ 
+  
+
+ 
+
+/* ////////////////// */
+
+.main__contact_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main__contact_block{
+    margin-left: 100px;
+}
+
+.main__contact_block .main_img_design{
+    margin: 25px 100px 180px 0px;
+}
+
+.main__contact_block .main_button{
+    display: flex;
+    justify-content: end;
+}
+
+@media(max-width:3840px){
+   main{
+    
+    
+   }
+   .main__name .main_title{
+    font-size: 100px;
+   }
+
+   .main_img{
+    display: flex;
+    justify-content: center;
+   }
+
+   .main__name img{
+    width: 500px;
+   }
+
+   .inform_text__text{
+    font-size: 30px;
+}
+
+.inform_text__title{
+    font-size: 40px;
+}
+
+.main_button button{
+    width: 200px;
+    height: 80.02px;
+
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+   
+}
+
+@media(max-width:2000px){
+   
+   
+
+   .main_img_design img{
+    width: 100px;
+   }
+
+}
+
+@media(max-width:1700px){
+    
+    .main_title_1{
+        font-size: 50px;
+    }
+    .main_title_2{
+        font-size: 50px;
+    }
+    .inform_text__text{
+        font-size: 25px;
+    }
+    
+    .inform_text__title{
+        font-size: 30px;
+    }
+
+    .main__name img{
+        width: 400px;
+       }
+    
+}
+@media(max-width:1190px){
+    
+    .main__content{
+        flex-direction: column;
+    }
+    .main_img_design{
+        display: none;
+    }
+    .main__information_block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inform_text__title{
+        font-size: 50px;
+    }
+    .inform_text__text{
+        font-size: 40px;
+    }
+
+    .main_title_1{
+        font-size: 100px;
+    }
+    .main_title_2{
+        font-size: 100px;
+    }
+    .main_img img{
+        width: 80%;
+    }
+    .main_img{
+        margin-bottom: 100px;
+    }
+    .main__contact_block .information_text {
+        text-align: left;
+    }
+        
+    }
+@media(max-width:900px){
+       
+        .main_title_1{
+            font-size: 70px;
+        }
+        .main_title_2{
+            font-size: 70px;
+        }
+    }
+@media(max-width:526px){
+
+    .inform_text__title{
+        font-size: 25px;
+    }
+    .inform_text__text{
+        font-size: 30px;
+    }
+    
+    .main_title_1{
+        font-size: 50px;
+    }
+    .main_title_2{
+        font-size: 50px;
+    }
+
+    
 }
